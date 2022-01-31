@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+.fundo{
+	background-image: url("../imagens/fundo_acrisan.png");
+	background-size: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
+	margin-top: -8px;	
+	margin-left: -8px;
+	position: absolute;
+}
+
+body{ 
+	overflow-x: hidden;
+}
+
+.seta-direita{
+	background-image: url("../imagens/estoque_baixo_direita.png");
+	background-repeat: no-repeat;
+	background-size: 100% 50%;
+	position: absolute;
+	margin-left: 90%;
+	margin-top: 15%;
+	width: 10%;
+	height: 80px;
+}
+
+.seta-esquerda1{
+	background-image: url("../imagens/inserir_produto_esquerda.png");
+	background-repeat: no-repeat;
+	background-size: 100% 50%;
+	position: absolute;
+	margin-top: 15%;
+	width: 10%;
+	height: 80px;
+}
+
+.seta-esquerda2{
+	background-image: url("../imagens/estoque_geral_esquerda.png");
+	background-repeat: no-repeat;
+	background-size: 100% 50%;
+	position: absolute;
+	margin-top: 15%;
+	width: 10%;
+	height: 80px;
+}
+
+.fundo-branco{
+	position: relative;
+	width: 70%;
+	background-color: #fff;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4%;
+	border-radius: 10px;
+	padding: 2%;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+}
+
+.resultado{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.fundo-busca{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	vertical-align: center;
+	margin: 1%;
+	width: 29%;
+	padding: 1%;
+	background-color: #003a70;
+	border-radius: 5px;
+	border: 1px solid #0160a8;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.bloco{
+	margin: 1%;
+	width: 97%;
+	padding: 1%;
+	font-family: Avantgarde, sans-serif;
+	word-wrap: break-word;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	color: #007a3f;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.nao-encontrado{
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	width: 50%;
+	text-align: center;
+	padding: 1%;
+	background: #FF2D2D;
+	color: #fff;
+	margin: 1% auto 1% auto;
+}
+
+.titulo{
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.areamenu{
+	display: flex;
+	margin-top: 1%;
+}
+
+.menu{
+	margin-left: 1%;
+	padding: 0.5% 1% 0.5% 1%;
+	color: #fff;
+	font-family: Verdana;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 12pt;
+	background-color: #003a70;
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+}
+
+.campo{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 13px;
+	margin-right: -5.3%;
+}
+
+.caixa{
+	width: 70%;
+}
+
+.pesquisas{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.opcoes{
+	display:flex;
+	margin: 1% auto 0px auto;
+	justify-content: center;
+}
+
+.buscar{
+	margin-top: 2%;
+	min-width: 80px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #003a70;
+	border: none;
+	border-radius: 5px;
+}
+
+.opcao{
+	width: 30px;
+	padding-right: 12px;
+	margin-top: -4px;
+}
+
+.opcao1{
+	width: 26px;
+	margin-top: -4px;
+}
+
+.pesquisa{
+	font-family: Arial, sans-serif;
+	margin-left: 11%;
+}
+
+.dados{
+	margin-top: 2%;   
+}
+
+.tituloTabela{
+	cursor: pointer;
+	font-family: Arial,sans-serif;
+	word-wrap: break-word;
+	height: 6vh;
+}
+
+.baixo{
+	color: red;
+}
+
+table{
+	table-layout: fixed;
+	margin-top: 4%;
+	padding: 1%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+th:hover{
+	transition: 0.3s;
+	background-color: #52ffaea6;
+}
+
+td{
+	text-align: center;
+	padding: 1.8%;
+	font-family: Trebuchet MS, sans-serif;
+	word-wrap: break-word;
+	font-size: 13pt;
+}
+

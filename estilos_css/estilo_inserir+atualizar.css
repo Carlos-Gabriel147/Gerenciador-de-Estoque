@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+.fundo{
+	background-image: url("../imagens/fundo_acrisan.png");
+	background-size: 100% 100%;
+   	min-width: 100vw;
+	min-height: 100vh;
+ 	margin-top: -8px;	
+ 	margin-left: -8px;
+ 	position: absolute;
+}
+
+.areamenu{
+	display: flex;
+	margin-top: 1%;
+}
+
+.menu{
+	margin-left: 1%;
+   	padding: 0.5% 1% 0.5% 1%;
+	color: #fff;
+	font-family: Verdana;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 12pt;
+	background-color: #003a70;
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.5);
+}
+
+.seta-direita{
+	background-image: url("../imagens/estoque_geral_direita.png");
+	background-repeat: no-repeat;
+	background-size: 100% 50%;
+	position: absolute;
+	margin-left: 90%;
+	margin-top: 15%;
+	width: 10%;
+	height: 80px;
+}
+
+.formulario{
+	position: relative;
+	padding: 2%;
+	background-color: #fff;
+	width: 50%;
+	margin: 3% auto auto auto;
+	border-radius: 7px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+}
+
+.titulo{
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.topico{
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	margin-left: 7%;
+}
+
+.entrada{
+	width: 90%;
+	display: flex;
+	align-items: center;
+}
+
+.botao{
+	width: 70%;
+	height: 30px;
+	margin-left: 11%;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #003a70;
+	border-radius: 5px;
+}
+
+.erro{
+	border-radius: 5px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	text-align: center;
+	background: #FF2D2D;
+	color: #fff;
+	width: 50%;
+	margin: auto;
+}
+
+.sucesso{
+	border-radius: 5px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bolder;
+	text-align: center;
+	background: #00FF72;
+	color: #2f2f2f;
+	width: 40%;
+	margin: auto;
+}
+
+
+
+
+
+
